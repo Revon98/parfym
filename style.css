@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+#search {
+  width: 100px;
+}
+body {
+  background-color: bisque;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100vw;
+
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.barnen {
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+
+  display: flex;
+  gap: 30px;
+
+  flex-direction: column;
+}
+.bilder {
+  width: 175px;
+  height: 150px;
+  margin-top: 10px;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: bisque;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  color: green;
+  width: 110px;
+  background-color: whitesmoke;
+  font-size: bold;
+  cursor: pointer;
+}
+
+p {
+  font-size: 18px;
+}
+
+.reklam1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.reklam {
+  width: 90%;
+  border-radius: 20px;
+}
